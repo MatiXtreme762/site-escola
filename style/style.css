@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
   
+  body{
+    font-family: 'Cal Sans';
+  }
   .cabecalho{
     background-color: #424e61; 
     color: white;
@@ -19,8 +24,8 @@
   }
 
   .cabecalho-imagem{
-    width: 110px;
-    height: 90px;
+    width: 120px;
+    height: 80px;
     border-radius: 30%;
   }
   
@@ -71,4 +76,16 @@
 .estudantes-icone {
     width: 24px;
     padding: 4px 8px;
+}
+
+.rodape{
+  background-color: #424e61;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.rodape-image{
+  height: 60px;
+  padding: 12px 0;
 }
